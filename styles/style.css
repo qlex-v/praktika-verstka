@@ -1,0 +1,33 @@
+body{
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+}
+.header{
+    background-color: #131313;
+    padding: 30px 39px;
+    color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-logo{
+    width: 83px;
+    height: 16px;
+    align-self: center;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item-link{
+    color: #F5F5F5;
+    text-underline-offset: 3px;
+}
+
+.menu-item-link-active{
+    text-decoration: none;
+}
+
